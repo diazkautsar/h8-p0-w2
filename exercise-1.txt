@@ -1,0 +1,74 @@
+// PSEUDOCODE dan ALGORITHM
+
+1. Newton Second Law
+// PSEUDOCODE
+    STORE "massa" with 600
+    STORE "percepatan" with 2
+    STORE "area" without any value
+
+    CALCULATE "massa" times "percepatan"
+    SET "area" value with calculation result
+
+    DISPLAY "area"
+
+// ALGORITHM
+    1. simpan "massa" dengan nilai 600
+    2. simpan height dengan nilai 2
+    3. simpan "area" dengan nilai yang akan diisikan
+    4. Hitung hasil perkalian "massa" dengan "percepatan"
+    5. Hasil dari perhitungan disimpan pada "area"
+    6. Tampilkan nilai dari "area"
+
+
+2. Tahun Kabisat
+// PSEUDOCODE
+    STORE "year" with any value
+    If ("year" % 4 = 0 and "year" % 100 !=0 or)
+    If ("year" % 4 = 0 and "year" % 100 = 0 and % 400 = 0)
+        DISPLAY "Tahun Kabisat"
+    Else 
+        DISPLAY "Bukan Tahun Kabisat"
+
+// ALGORITHM
+    1. Simpan "year" dengan berbagai nilai
+    2. Jika "year" dibagi 4 sama dengan 0 dan "year" dibagi 100 tidak sama dengan nol. atau
+    3. Jika "year" dibagi 4 sama dengan 0 dan "year" dibagi 100 sama dengan 0 dan "year" dibagi 400 sama dengan 0
+    4. Maka tampilkan "Tahun Kabisat"
+    5. Jika tidak, maka tampilkan "Bukan Tahun Kabisat"
+
+
+3. Laundry Day
+// PSEUDOCODE
+    STORE "laundry" with value 0
+    While "laundry" < 20
+        ADD "laundry" by 1
+    DISPLAY "Machine laundry on"
+
+// ALGORITHM
+    1. Simpan "laundry" dengan nilai 0
+    2. Jika "laundry" kurang dari 20
+    3. maka tambahkan 1 pada "laundry"
+    4. Tampilkan "Machine laundry on"
+
+
+4. Periksa Kuku
+// PSEUDOCODE
+    READ AND SAVE "students" by 40 length
+    STORE "urutanStudents" by 0
+    WHILE "urutanStudents" less than "students" length
+        IF "students" "nail" EQUAL "panjang" THEN
+    DISPLAY "hukum"
+        ELSE IF "students" "nail" EQUALS "pendek" THEN
+    DISPLAY "puji"
+    END IF
+        ADD "urutanStudents" by 1
+    ENDWHILE
+
+// ALGHORITM
+    1. Baca dan simpan data "students" sebanyak 40
+    2. Simpan "urutanStudents" dengan on
+    3. Ketika "urutanStudents" kurang dari "students"
+    4. Jika "students" "nail" sama dengan "panjang" maka menampilkan "hukum"
+    5. Jika "students" "nail" sama dengan "pendek" maka menampilkan "puji"
+    6. Setelah selesai. tambah "urutanStudents" dengan 1
+    7. Pemeriksaan kuku selesai.
