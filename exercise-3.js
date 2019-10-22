@@ -1,3 +1,5 @@
+//Nama peran: Rani, Rina, Rena, Reni
+
 var nama = 'Reni';
 var peran = 'Penyihir';
 
