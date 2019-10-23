@@ -1,4 +1,4 @@
-var tanggal = 30;
+var tanggal = 29;
 var bulan = 2;
 var tahun = 2020;
 var pesan = '';
@@ -34,7 +34,7 @@ if (bulan === 1 || bulan === 3 || bulan === 5 || bulan === 7 || bulan === 8 || b
         }
     }
 }
-// Validasi Bulan Berjumlah 30
+// Validasi Bulan Berjumlah 30.
 if (bulan === 4 || bulan === 6 || bulan === 9 || bulan === 11) {
     if (tanggal < 1 || tanggal > 30) {
         pesan += 'Revisi tanggal. Tanggal tidak boleh kurang dari 1 dan tidak boleh lebih dari 30 karena ini berjumlah 30 hari\n'

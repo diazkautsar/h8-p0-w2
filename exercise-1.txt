@@ -23,26 +23,30 @@
 2. Tahun Kabisat
 // PSEUDOCODE
     STORE "year" with any value
-    If ("year" % 4 = 0 and "year" % 100 !=0 or)
-    If ("year" % 4 = 0 and "year" % 100 = 0 and % 400 = 0)
+    IF ("year" % 4 = 0 and "year" % 100 !=0) or ("year" % 4 = 0 and "year" % 100 = 0 and % 400 = 0) THEN
         DISPLAY "Tahun Kabisat"
-    Else 
+    ELSE  
         DISPLAY "Bukan Tahun Kabisat"
+    END IF
 
 // ALGORITHM
     1. Simpan "year" dengan berbagai nilai
     2. Jika "year" dibagi 4 sama dengan 0 dan "year" dibagi 100 tidak sama dengan nol. atau
-    3. Jika "year" dibagi 4 sama dengan 0 dan "year" dibagi 100 sama dengan 0 dan "year" dibagi 400 sama dengan 0
-    4. Maka tampilkan "Tahun Kabisat"
-    5. Jika tidak, maka tampilkan "Bukan Tahun Kabisat"
+       Jika "year" dibagi 4 sama dengan 0 dan "year" dibagi 100 sama dengan 0 dan "year" dibagi 400 sama dengan 0
+    3. Maka tampilkan "Tahun Kabisat"
+    4. Jika tidak, maka tampilkan "Bukan Tahun Kabisat"
+
 
 
 3. Laundry Day
 // PSEUDOCODE
-    STORE "laundry" with value 0
-    While "laundry" < 20
-        ADD "laundry" by 1
-    DISPLAY "Machine laundry on"
+    STORE 'laundry' with 0
+    WHILE 'laundry' < 20
+        SET 'laundry' with 'laundry' + 1
+        DISPLAY 'laundry'
+    END WHILE
+    DISPLAY "Mesin Menyala"
+
 
 // ALGORITHM
     1. Simpan "laundry" dengan nilai 0
@@ -53,22 +57,23 @@
 
 4. Periksa Kuku
 // PSEUDOCODE
-    READ AND SAVE "students" by 40 length
-    STORE "urutanStudents" by 0
-    WHILE "urutanStudents" less than "students" length
-        IF "students" "nail" EQUAL "panjang" THEN
-    DISPLAY "hukum"
-        ELSE IF "students" "nail" EQUALS "pendek" THEN
-    DISPLAY "puji"
-    END IF
-        ADD "urutanStudents" by 1
-    ENDWHILE
-
+    STORE 'jumlahSiswa' = 40
+    WHILE 'jumlahSiswa' > 0
+        IF "kuku siswa" = "panjang" THEN
+            DISPLAY "Guru Menghukum"
+        ELSE IF "kuku siswa" = "pendek" THEN
+            DISPLAY "Guru Memuji" 
+        END IF
+        SET 'jumlahSiswa' with 'jumlahSiswa' - 1
+    END WHILE
+    
 // ALGHORITM
-    1. Baca dan simpan data "students" sebanyak 40
-    2. Simpan "urutanStudents" dengan on
-    3. Ketika "urutanStudents" kurang dari "students"
-    4. Jika "students" "nail" sama dengan "panjang" maka menampilkan "hukum"
-    5. Jika "students" "nail" sama dengan "pendek" maka menampilkan "puji"
-    6. Setelah selesai. tambah "urutanStudents" dengan 1
-    7. Pemeriksaan kuku selesai.
+1. Simpan 'jumlahSiswa' dengan nilai 40
+2. 'jumlahSiswa' lebih dari 0, looping
+3. Jika "kuku siswa" panjang, maka menampilkan "Guru Dihukum"
+4. kecuali jika "kuku siswa" pendek, maka menampilkan "Guru Memuji"
+5. Atur 'jumlahSiswa' dengan 'jumlahSiswa' dikurang 1.
+6. lakukan pengecekan looping. 
+7. 'jumlahSiswa' lebih dari 0, balik ke point 2, 3, 4, 5, 6.
+7. Selsai looping
+    
