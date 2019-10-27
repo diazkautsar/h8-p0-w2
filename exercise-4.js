@@ -55,4 +55,4 @@ function kalender(hari, bulan, tahun) {
     }
     return hasil
 }
-console.log(kalender(30, 2, 2020));
+console.log(kalender(31, 1, 2020));
