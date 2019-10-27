@@ -1,23 +1,19 @@
-//Nama peran: Rani, Rina, Rena, Reni
-
-var nama = 'Reni';
-var peran = 'Penyihir';
-
-if (nama === '' && peran === '') {
-    console.log('Nama harus diisi!');
-} 
-else if (nama === 'Rani' && peran === '') {
-    console.log('Halo Rani, Pilih peranmu untuk memulai game!');
+function proxytia(nama, peran) {
+    var hasil = "";
+    if (nama === "" && peran === "") {
+        hasil += "Nama harus diisi"
+    } else if (nama && peran === "") {
+        hasil += "Halo " + nama + ", Pilih peranmu untuk memulai game"
+    } else if (nama, peran) {
+        hasil += "Selama datang di Dunia Proxyitia, " + nama + "\n"
+        if (peran === "ksatria") {
+            hasil += "Halo " + peran + " " + nama + ", kamu dapat menyerang dengan senjatamu"
+        } else if (peran === "tabib") {
+            hasil += "Halo " + peran + " " + nama + ", kamu akan membantu temanmu yang terluka"
+        } else if (peran === "penyihir") {
+            hasil += "Halo " + peran + " " + nama + ", ciptakan keajaiban yang membantu kemenanganmu"
+        }
+    }
+    return hasil
 }
-else if (nama === 'Rina' && peran === 'Ksatria') {
-    console.log('Selamat datang di Dunia Proxytia, Rina');
-    console.log('Halo Ksatira Rina, kamu dapat menyerang dengan senjatamu!');
-}
-else if (nama === 'Rena' && peran === 'Tabib') {
-    console.log('Selamat datang di Dunia Proxytia, Rena');
-    console.log('Halo Tabib Rena, kamu akan membantu temanmu yang terluka');
-}
-else if (nama === 'Reni' && peran === 'Penyihir') {
-    console.log('Selamat datang di Dunia Proxytia, Reni');
-    console.log('Halo Penyihir Reni. Ciptakan keajaiban yang membantu kemenanganmu!');
-}
+console.log(proxytia("Diaz", ""))
