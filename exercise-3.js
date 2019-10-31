@@ -16,4 +16,4 @@ function proxytia(nama, peran) {
     }
     return hasil
 }
-console.log(proxytia("Diaz", ""))
+console.log(proxytia("Diaz", "tabib"))

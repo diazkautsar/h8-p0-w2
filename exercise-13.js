@@ -1,18 +1,19 @@
 function xo(str) {
-    var jumlahX = '';
-    var jumlahO = '';
-    for (var i = str.length; i >= 0; i--) {
-        if(str[i] === 'x'){
-            jumlahX += 'x'
-        } else if (str[i] === 'o') {
-            jumlahO += 'o'
+    var hasilX = 0
+    var hasilO = 0
+    for (var i = 0; i < str.length; i++) {
+        if (str[i] === "x") {
+            hasilX++
+        } else {
+            hasilO++
         }
     }
-    if(jumlahX.length === jumlahO.length) {
+    if (hasilX === hasilO) {
         return true
     } else {
         return false
     }
+    // return output
 }
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false
